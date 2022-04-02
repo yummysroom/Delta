@@ -2,6 +2,6 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
 
 local w = Library:Window("Project Lazarus")
 
-w:Button("Button", function()
+w:Button("EvoV2", function()
    loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 end)
