@@ -5,3 +5,7 @@ local w = Library:Window("Project Lazarus")
 w:Button("EvoV2", function()
    loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 end)
+
+w:Button("420Script", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+end)
