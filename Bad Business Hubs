@@ -5,3 +5,7 @@ local w = Library:Window("Bad Business")
 w:Button("DarkHub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
 end)
+
+w:Button("EvoV2", function()
+   loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
