@@ -13,3 +13,7 @@ end)
 w:Button("AutoFarm and AutoCollect", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rykyy/roblox/scripts/CriticalLegends.lua"))()
 end)
+
+w:Button("LeadMarker AutoFarm", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LeadMarker/OpenSource/main/CriticalLegends.lua"))()
+end)
