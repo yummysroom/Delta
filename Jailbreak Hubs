@@ -5,3 +5,7 @@ local w = Library:Window("Jailbreak")
 w:Button("Darkhub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
 end)
+
+w:Button("Auto Rob", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
