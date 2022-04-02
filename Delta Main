@@ -1,0 +1,8 @@
+local games = {
+[286090429]= "", --Arsenal
+[5264342538] = "" --Endless Mining Sim
+}
+local cur = game.PlaceId
+if games[cur] then
+loadstring(game:HttpGet(games[cur]))()
+end
