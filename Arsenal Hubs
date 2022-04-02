@@ -9,3 +9,7 @@ w:Button("DarkHub", function()
 w:Button("V.G Hub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
  end)
+
+w:Button("Owl Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+ end)
