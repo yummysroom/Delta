@@ -5,3 +5,9 @@ local w = Library:Window("Main")
 w:Button("Darkhub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
 end)
+
+w:Button("Darkhub", function()
+   repeat wait() until game.Players.LocalPlayer.Character
+url = "https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"
+loadstring(game:HttpGet(url))()
+end)
