@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
 
-local w = Library:Window("Hubs")
+local w = Library:Window("Big Paintball")
 
 w:Button("Darkhub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
