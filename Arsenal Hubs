@@ -13,3 +13,7 @@ w:Button("V.G Hub", function()
 w:Button("Owl Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
  end)
+
+w:Button("Dex Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+ end)
