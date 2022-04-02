@@ -5,3 +5,7 @@ local w = Library:Window("Endless Mining Simulator")
 w:Button("Simple Autofarm", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/6fSsTMPV"))()
 end)
+
+w:Button("ExtremeHub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
