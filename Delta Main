@@ -7,7 +7,8 @@ local games = {
     [2377868063] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Strucid%20Hubs", --Strucid
     [21532277] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Notoriety%20Hubs", --Notoriety
     [3297964905] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Weaponry%20Hubs", --Weaponary
-    [7791873535] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Realistic%20%20Hood%20Hubs" --Realistic Hood
+    [7791873535] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Realistic%20%20Hood%20Hubs", --Realistic Hood
+    [5648523896] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Trenches%20Hubs"
     }
     local cur = game.PlaceId
     if games[cur] then
