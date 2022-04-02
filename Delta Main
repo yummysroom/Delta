@@ -1,6 +1,6 @@
 local games = {
 [286090429]= "https://raw.githubusercontent.com/yummysroom/Delta/main/Delta%20Main?token=GHSAT0AAAAAABTE52SESW6HYCO5DJEOZKNEYSIQUZA", --Arsenal
-[5264342538] = "" --Endless Mining Sim
+[5264342538] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Endless%20Mining%20Sim%20Hub?token=GHSAT0AAAAAABTE52SFV6EYZTJA6ZQENMPIYSIRCRQ" --Endless Mining Sim
 }
 local cur = game.PlaceId
 if games[cur] then
