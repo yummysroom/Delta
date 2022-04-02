@@ -5,3 +5,7 @@ local w = Library:Window("Big Paintball")
 w:Button("Darkhub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
 end)
+
+w:Button("LKHUB", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LeoKholYt/roblox/main/bigpaintball.lua",true))()
+end)
