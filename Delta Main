@@ -1,5 +1,5 @@
 local games = {
-[286090429]= "", --Arsenal
+[286090429]= "https://raw.githubusercontent.com/yummysroom/Delta/main/Delta%20Main?token=GHSAT0AAAAAABTE52SESW6HYCO5DJEOZKNEYSIQUZA", --Arsenal
 [5264342538] = "" --Endless Mining Sim
 }
 local cur = game.PlaceId
