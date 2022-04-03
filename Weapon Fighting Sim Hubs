@@ -9,5 +9,5 @@ w:Button("Zephyr X", function()
 end)
 
 w:Button("Uzu's AutoFarm", function()  
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 end)
