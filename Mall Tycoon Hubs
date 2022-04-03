@@ -12,6 +12,6 @@ w:Button("Guybrush Hub", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xowie89/Roblox-Scripts/main/Mall%20Tycoon.lua"))()
 end)
 
-w:Button("DuckyHub", function()  
+w:Button("DuckSploit", function()  
   loadstring(game:HttpGet("https://pastebin.com/raw/zEZMhSxL", true))()
 end)
