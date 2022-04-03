@@ -1,21 +1,25 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
-local w = Library:Window("Phantom Forces")
+local w = library:CreateWindow("Phantom Forces") -- Creates the window
 
-w:Button("Darkhub", function()
-   loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
+local b = w:CreateFolder("Hubs") -- Creates the folder(U will put here your buttons,etc)
+
+b:Button("Zephyr X",function()
+       pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ECLIPSE%20X.txt", true))()
+end)
 end)
 
-w:Button("EvoV2", function()
-   loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
-end)
-
-w:Button("Pink Forces", function()
+b:Button("Pink Forces",function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
 end)
 
-w:Button("Zephyr X", function()
-   pcall(function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ECLIPSE%20X.txt", true))()
-   end)
+b:Button("EvoV2",function()
+   loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 end)
+
+b:Button("EvoV2",function()
+   loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
+end)
+
+b:DestroyGui()
