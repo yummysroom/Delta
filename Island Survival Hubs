@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
+
+local w = Library:Window("Island Survival")
+
+w:Button("Button", function()
+   pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ECLIPSE%20X.txt", true))()
+end)
+end)
