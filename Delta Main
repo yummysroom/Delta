@@ -19,7 +19,8 @@ local games = {
     [137885680] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Zombie%20Rush%20Hubs", --Zombie Rush
     [1502601752] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Rabbit%20Sim%202%20Hubs", -- Rabbit Sim 2
     [8554378337] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Weapon%20Fighting%20Sim%20Hubs", --Weapon Fighting Simulator
-    [5736409216] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Mall%20Tycoon%20Hubs" --Mall Tycoon
+    [5736409216] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Mall%20Tycoon%20Hubs", --Mall Tycoon
+    [2753915549] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Blox%20Fruits%20Hubs" --Blox Fruits
     }
     local cur = game.PlaceId
     if games[cur] then
