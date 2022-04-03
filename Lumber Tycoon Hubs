@@ -13,9 +13,11 @@ b:Button("Ancestor",function()
 end)
 
 b:Button("AncestorV2",function()
-    https://raw.githubusercontent.com/yummysroom/scripts/main/AncestorV2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yummysroom/scripts/main/AncestorV2"))()
 end)
 
-
+b:Button("Ancestor",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0x37Dev/Cool-Solo-Dupe-Thing/main/script.lua?fbclid=IwAR3WhSEypYmtHmHvrrdbNSdv7HbiitHz94kSpKg0spqyqUdMKbQBO1g6UBI"))()
+end)
 
 b:DestroyGui()
