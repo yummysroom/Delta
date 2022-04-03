@@ -1,7 +1,11 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/6W1ZqV53"))()
 
-local w = Library:Window("Weaponary")
+local w = Library:Window("Weaponry")
 
 w:Button("Darkhub", function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
+end)
+
+w:Button("V.G-Hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
