@@ -7,3 +7,7 @@ w:Button("Zephyr X", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ECLIPSE%20X.txt", true))()
 end)
 end)
+
+w:Button("V.G-Hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
