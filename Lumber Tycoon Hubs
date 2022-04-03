@@ -4,6 +4,15 @@ local w = library:CreateWindow("Lumber Tycoon") -- Creates the window
 
 local b = w:CreateFolder("Hubs") -- Creates the folder(U will put here your buttons,etc)
 
-b:Button("Dupe Gui",function()
+b:Button("Ancestor",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/lt2/main/lt2ancestor"))()
 end)
+
+b:Button("Ancestor",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/lt2/main/lt2ancestor"))()
+end)
+
+
+
+
+b:DestroyGui()
