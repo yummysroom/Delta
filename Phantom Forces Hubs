@@ -9,3 +9,17 @@ b:Button("Zephyr X",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ECLIPSE%20X.txt", true))()
 end)
 end)
+
+b:Button("Pink Forces",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
+end)
+
+b:Button("EvoV2",function()
+   loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+b:Button("Darkhub",function()
+   loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
+end)
+
+b:DestroyGui()
