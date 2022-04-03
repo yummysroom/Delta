@@ -11,3 +11,7 @@ end)
 w:Button("V.G-Hub", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
+
+w:Button("Midnight Hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/HazeNx/nxscripts/main/Midnight-Hub'))()
+end)
