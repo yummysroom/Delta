@@ -13,3 +13,7 @@ end)
 w:Button("EvoV2", function()
    loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 end)
+
+w:Button("V.G-Hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
