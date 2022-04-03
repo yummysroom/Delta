@@ -11,5 +11,5 @@ w:Button("LKHUB", function()
 end)
 
 w:Button("TR1V5", function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/UXKr79mJ",true))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V1/main/Main2%20v1.5"))()
 end)
