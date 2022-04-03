@@ -15,3 +15,7 @@ end)
 w:Button("Pitch Hub", function()
    loadstring(game:HttpGet('https://gist.githubusercontent.com/PitchyATree/2e25a317b4f8499357e39c7fef9075d7/raw/a8b4bebf533e2716f20a881754acc503c3ea2839/timber'))()
 end)
+
+w:Button("Rbx Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxhubs/robloxscript/main/script.lua"))()
+end)
