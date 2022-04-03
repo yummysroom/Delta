@@ -18,7 +18,7 @@ b:Button("EvoV2",function()
    loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 end)
 
-b:Button("EvoV2",function()
+b:Button("Darkhub",function()
    loadstring(game:HttpGet("http://darkhub.xyz/remote-script.lua", true))()
 end)
 
