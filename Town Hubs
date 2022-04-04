@@ -1,0 +1,9 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow("Town") -- Creates the window
+
+local b = w:CreateFolder("Warning Only Admin Scripts!") 
+
+b:Button("Infinity Yield",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
