@@ -32,7 +32,8 @@ local games = {
     [7346416636] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Pop%20It%20Trading%20Hubs", --Pop It Trading
     [5233782396] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Creatures%20Of%20Sonaria%20Hubs", --Creatures Of Sonaria
     [1224212277] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Mad%20City%20Hubs", --Mad City
-    [13822889] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Lumber%20Tycoon%20Hubs" --Lumber Tycoon
+    [13822889] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Lumber%20Tycoon%20Hubs", --Lumber Tycoon
+    [4991214437] = "https://raw.githubusercontent.com/yummysroom/Delta/main/Town%20Hubs" --Town
     }
     local cur = game.PlaceId
     if games[cur] then
